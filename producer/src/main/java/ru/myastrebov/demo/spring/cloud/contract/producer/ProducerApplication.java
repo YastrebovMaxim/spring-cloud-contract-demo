@@ -1,4 +1,4 @@
-package ru.myastrebov.demo.spring.cloud.contract;
+package ru.myastrebov.demo.spring.cloud.contract.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

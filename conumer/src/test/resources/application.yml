@@ -1,0 +1,3 @@
+stubrunner:
+  idsToServiceIds:
+    producer: pricing-client

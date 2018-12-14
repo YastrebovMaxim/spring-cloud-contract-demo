@@ -81,6 +81,27 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-contract-maven-plugin</artifactId>
+                <version>2.1.0.M2</version>
+                <extensions>true</extensions>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generateTests</goal>
+                            <goal>generateStubs</goal>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <baseClassForTests>ru.myastrebov.demo.spring.cloud.contract.producer.BaseContractTest</baseClassForTests>
+                    <basePackageForTests>ru.myastrebov.demo.spring.cloud.contract.producer.api</basePackageForTests>
+                    <testFramework>JUNIT5</testFramework>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
