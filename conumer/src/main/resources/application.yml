@@ -1,0 +1,8 @@
+server:
+  port: 8089
+
+pricing-client:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8099
