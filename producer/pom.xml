@@ -97,7 +97,7 @@
                 </executions>
                 <configuration>
                     <baseClassForTests>ru.myastrebov.demo.spring.cloud.contract.producer.BaseContractTest</baseClassForTests>
-                    <basePackageForTests>ru.myastrebov.demo.spring.cloud.contract.producer.api</basePackageForTests>
+                    <basePackageForTests>ru.myastrebov.demo.spring.cloud.contract.producer</basePackageForTests>
                     <testFramework>JUNIT5</testFramework>
                 </configuration>
             </plugin>
