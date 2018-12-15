@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 @AutoConfigureStubRunner(
-        ids = "ru.myastrebov:producer:+:stubs:8082",
+        ids = "ru.myastrebov:producer:+:stubs",
         stubsMode = StubRunnerProperties.StubsMode.LOCAL
 )
 @SpringBootTest(classes = ConsumerApplication.class)
